@@ -1,0 +1,23 @@
+{
+  "add_prefix_space": true,
+  "apply_ocr": false,
+  "backend": "tokenizers",
+  "bos_token": "<s>",
+  "cls_token": "<s>",
+  "eos_token": "</s>",
+  "extra_special_tokens": [
+    "<s>",
+    "</s>"
+  ],
+  "is_local": false,
+  "local_files_only": false,
+  "mask_token": "<mask>",
+  "model_max_length": 512,
+  "pad_token": "<pad>",
+  "processor_class": "LayoutLMv3Processor",
+  "sep_token": "</s>",
+  "sp_model_kwargs": {},
+  "tokenizer_class": "XLMRobertaTokenizer",
+  "unk_id": 0,
+  "unk_token": "<unk>"
+}

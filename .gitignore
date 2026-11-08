@@ -1,0 +1,38 @@
+# Python & Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large AI Model Weights & Datasets (>100MB exceeds GitHub limit)
+weights/*.pth
+weights/*.safetensors
+weights/*.bin
+weights/layoutlmv3_finetuned/model.safetensors
+onnx_models/*.onnx
+vdu_deployment/
+*.zip
+*.tar.gz
+
+# Local databases & caches
+*.db
+*.sqlite3
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE & Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary data & caches
+vietocr_data/
+processed_mcocr/
+train_receipt_ocr/
+valid_receipt_ocr/
+layoutlm_checkpoints/
